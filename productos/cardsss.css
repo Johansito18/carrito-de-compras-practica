@@ -1,0 +1,100 @@
+body {
+  /*background: linear-gradient(rgb(255, 255, 255) 10%, rgb(0, 164, 170) 50%, rgb(97, 46, 128) 100%, rgb(39, 1, 1) 10%) fixed;*/
+  background: linear-gradient(rgb(0,164,170) 10%,rgb(255, 255, 255) 100%) fixed;
+  height: 100%;
+  width: auto;
+
+  font: 14px/20px "Lato", Arial, sans-serif;
+  color: #000000;
+  
+
+}
+
+.apiproducto {
+  background: linear-gradient(rgb(39, 1, 1) 20%, rgb(101, 2, 103) 90%) fixed;
+  color: white;
+}
+
+.slide-container {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 600px;
+  text-align: center;
+}
+
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+.producto {
+  width: 80%;
+  padding-left: 10%;
+  padding-top: 5%;
+  border-radius: 0%;
+
+
+}
+
+#inputproductos {
+  color: white;
+  background-color: rgba(0, 0, 0, 50%);
+  height: 40px;
+  border-radius: 10px;
+}
+
+#inputproductos::placeholder {
+  color: white;
+}
+
+
+.productoContainer {
+  background: linear-gradient(rgb(255, 255, 255) 5%, rgb(80, 1, 129) 100%) fixed;
+  height: auto;
+  width: auto;
+}
+
+#prods{
+  display: grid;
+  width: auto;
+  margin: 0 auto;
+  background-color: gray;
+  grid-template-columns: auto auto auto auto;
+
+}
+
+.produc {
+  width: 300px;  
+  height: 410px;
+  text-align: center;
+  border-color: black;
+  border-style: double ;
+  border-width: 15px;
+  background-color: white;
+  color: #000000;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px #000000;
+  background-color: white;
+
+  
+  
+}
+
+.imagen_producto{
+  width: 200px; 
+  height: 200px;
+  margin-top: 5%;
+  
+}
+.boton_comprar{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+}
+
+
+
